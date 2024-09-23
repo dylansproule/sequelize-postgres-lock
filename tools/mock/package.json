@@ -1,0 +1,25 @@
+{
+  "name": "mock-webhooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node ./dist/index.js",
+    "start": "tsc && npm run dev"
+  },
+  "keywords": [],
+  "author": "dylansproule",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "morgan": "^1.10.0",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.3.3"
+  }
+}
